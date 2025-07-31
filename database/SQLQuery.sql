@@ -1,0 +1,12 @@
+﻿CREATE TABLE [dbo].[Sms]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Users] NVARCHAR(50) NULL, 
+    [Text] NVARCHAR(50) NULL
+)
+CREATE TABLE [dbo].[Users]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Login] NVARCHAR(50) NULL, 
+    [Password] NVARCHAR(50) NULL
+)
