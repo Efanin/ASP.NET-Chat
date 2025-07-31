@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+<form method="post" asp-action="Login">
+    <img class="mb-4" src="https://avatars.mds.yandex.net/i?id=a04afca1aec9c2e24edb1eefa62dfdad11eb4eb7-3443916-images-thumbs&n=13" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Please Login</h1>
+
+    <div class="form-floating">
+        <input name="login" type="text" class="form-control" id="floatingInput" placeholder="Login">
+        <label for="floatingInput">Login</label>
+    </div>
+    <div class="form-floating">
+        <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+        <label>
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+</form>
